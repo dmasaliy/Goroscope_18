@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Horoscope 18+"
+        android:textColor="#000000"
+        android:textSize="48sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/ovn"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="ovenc"
+                    android:src="@drawable/ovn" />
+
+                <ImageView
+                    android:id="@+id/tel"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="telec"
+                    android:src="@drawable/tel" />
+
+                <ImageView
+                    android:id="@+id/bliz"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="bliznec"
+                    android:src="@drawable/bliz" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/rak"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="rakc"
+                    android:src="@drawable/rak" />
+
+                <ImageView
+                    android:id="@+id/lev"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="levc"
+                    android:src="@drawable/lev" />
+
+                <ImageView
+                    android:id="@+id/dev"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="devc"
+                    android:src="@drawable/dev" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/ves"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="vesc"
+                    android:src="@drawable/ves" />
+
+                <ImageView
+                    android:id="@+id/scorp"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="scorpc"
+                    android:src="@drawable/scorp" />
+
+                <ImageView
+                    android:id="@+id/strel"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="strelc"
+                    android:src="@drawable/strel" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/koz"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="kozc"
+                    android:src="@drawable/koz" />
+
+                <ImageView
+                    android:id="@+id/vod"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="vodc"
+                    android:src="@drawable/vod" />
+
+                <ImageView
+                    android:id="@+id/rub"
+                    android:layout_width="136dp"
+                    android:layout_height="150dp"
+                    android:onClick="rubc"
+                    android:src="@drawable/rub" />
+            </LinearLayout>
+
+</LinearLayout>
