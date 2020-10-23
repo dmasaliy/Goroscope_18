@@ -1,4 +1,4 @@
-package com.example.goroscope;
+package com.giro.goroscope;
 
 import androidx.appcompat.app.AppCompatActivity;
 

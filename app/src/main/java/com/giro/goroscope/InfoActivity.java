@@ -1,9 +1,8 @@
-package com.example.goroscope;
+package com.giro.goroscope;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Objects;

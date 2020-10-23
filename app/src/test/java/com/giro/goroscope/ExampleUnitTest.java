@@ -1,4 +1,4 @@
-package com.example.goroscope;
+package com.giro.goroscope;
 
 import org.junit.Test;
 
